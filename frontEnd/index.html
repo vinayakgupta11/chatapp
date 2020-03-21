@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <link rel="stylesheet" type="text/css" href="css/stylesheets.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.22/angular-ui-router.js'></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>                                                                             
+        <script src="routes/app.js" charset="UTF-8"> </script>
+        <script src="controller/registerController.js"></script>
+        <script src="controller/loginController.js"></script>
+        <script src="controller/forgetController.js"></script>
+        <script src="controller/resetController.js"></script>
+        <script src="controller/getUsersController.js"></script>
+        <script src="./services/registerService.js"></script>
+        <!-- <script src="/socket.io/socket.io.js"></script> -->
+       
+        <script>var socket = io();
+        socket.on('EmiterEvent',function(data){
+                document.getElementById(data.description)
+        })
+        </script>
+        <title>Chat app</title>
+</head>
+
+<body ng-app="chatApp">
+        <div class="bg-image"></div>
+        <h1 class="header">Chat Application</h1>
+
+        <div class="bg-text">
+                <ui-view></ui-view>
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+h1 {
+  color: black;
+  font-size: 1cm;
+  text-align: top;
+}
+
+  .center {
+  
+    text-align: center;
+    color: red;
+    font-size: .5cm
+  }
+  #dashh{
+    color: black;
+    font-size: 1cm;
+    text-align: top;
+  }
+ 
+  .bg-image {
+   
+    background-image: url("./asserts/ch.jpg");
+    
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-text {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0);
+    color:purple;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+    }
+  
+  
+    .header {
+      text-align: left;
+    overflow: hidden;
+    background-color:#0d260d;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 97%;
+    padding:10px;
+    margin-left:10px;
+    margin-right: 100px;
+    }
+    .h1 {
+    
+    margin: auto;
+    width: 20%;
+    overflow: hidden;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    padding: 5px 5px;
+    width: 280px;
+    }
+    
+    .button {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 40px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      }
+      .forget
+      {
+        background-color: red;
+        border: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 40px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      }
+      .new
+      {
+        background-color:grey;
+        border: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 40px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      }
+     .dashh{
+      text-align: left;
+      vertical-align: top;
+      color:yellow;
+      padding:10px;
+      margin-left:-300px;
+       }
+       .box
+       {
+         border:6px solid black;
+         position: absolute;
+         vertical-align: 100px;
+         left:0%;
+         right:10%;
+         bottom:-50%;
+         height:400px;
+         width:800px;
+       }
+       .textbox{
+        border:2px solid whitesmoke;
+        position: absolute;
+        bottom:-5%;
+        width:800px;
+
+       }
+       #buttonn {
+       top:95%;
+       right:5%;
+       position: absolute;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 40px;
+        height: .7cm;
+        text-align: bottom;
+        bottom:-50%;
+        display: inline-block;
+        
+        }

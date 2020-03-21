@@ -1,0 +1,13 @@
+<h1>Registeration page</h1>
+<form>
+     <label for="first-name">First Name</label><br />
+<input class= "h1" placeholder="Enter First Name" type="text" name="first-name" ng-model= "firstname" required><br />
+<label for="last-name">Last Name</label><br />
+<input  class= "h1" type="text" placeholder="Enter last Name" name="last-name" ng-model= "lastname" required><br />
+<label for="email">Email</label><br />
+<input class= "h1" type="email" placeholder="Enter email-address" name="email-address" ng-model= "email" required><br />
+<label for="password">Password</label><br />
+<input  class= "h1" type="password" placeholder="Enter password" name="password" ng-model= "password" required><br />
+<input class= "button" type="submit" value="submit" ng-click = "registerUser()" />
+<input class= 'forget' type="reset" ng-click="resetForm()" value="Reset" />
+</form>
